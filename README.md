@@ -148,11 +148,11 @@ it will run the the server on `localhost:3000`
 
 ## 👥 Authors <a name="author"></a>
 
-👤 **Jubar**
+👤 **Jubaer Maruf**
 
-- GitHub: [@githubhandle](https://github.com/batoolfatima2135)
-- Twitter: [@twitterhandle](https://twitter.com/batool2135)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/batool-fatima-515531196/)
+- GitHub: [jubaer_Maruf](https://github.com/jubaer919)
+- Twitter: [@jubaer_maruf](https://twitter.com/jubaer_maruf)
+- LinkedIn: [Jubaer Maruf](https://www.linkedin.com/in/jubaer-maruf/)
 
 👤 **Obi Anthony**
 
