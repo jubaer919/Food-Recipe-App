@@ -1,0 +1,2 @@
+module GeneralShopingHelper
+end
