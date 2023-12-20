@@ -13,3 +13,17 @@ class RecipesController < ApplicationController
     @recipes = Recipe.where(user_id: current_user.id)
   end
 end
+
+def new
+  @recipe = Recipe.new
+end
+
+def create
+  @recipe = Recipe.new(recipe_params)
+  @recipe.user = current_user
+  if @recipe.save
+    redirect_to recipe_url(@recipe), notice: 'Recipe was successfully created.'
+  else
+    render :new, status: :unprocessable_entity
+  end
+end
