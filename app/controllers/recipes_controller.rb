@@ -12,6 +12,11 @@ class RecipesController < ApplicationController
   def index
     @recipes = Recipe.where(user_id: current_user.id)
   end
+
+  def show
+    @recipe = set_recipe
+    @recipe_foods = @recipe.recipe_foods.includes(:food).where(recipe_id: @recipe.id)
+  end
 end
 
 def new
