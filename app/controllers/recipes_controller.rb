@@ -1,5 +1,5 @@
 class RecipesController < ApplicationController
-  before_action :set_recipe, only: %i[show edit update destroy]
+  # before_action :set_recipe, only: %i[show edit update destroy]
   before_action :authenticate_user!, except: [:public]
   skip_before_action :verify_authenticity_token, only: :toggle_public
 
