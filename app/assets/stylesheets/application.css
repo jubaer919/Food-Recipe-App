@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: rgb(167, 124, 242);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 8px;
+}
+
+.nav-item a {
+  padding: 8px;
+  color: black;
+}
+
+.btn {
+  padding: 8px 1rem;
+}
