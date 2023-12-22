@@ -1,0 +1,17 @@
+<!-- views/foods/edit.html.erb -->
+
+<section class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Edit Food</h1>
+    </div>
+  </div>
+
+  <%= render 'form', food: @food %>
+
+  <div class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <%= link_to "Back to foods", foods_path, class: 'btn btn-info mr-2' %>
+    </div>
+  </div>
+</section>
